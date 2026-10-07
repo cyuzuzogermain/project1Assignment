@@ -1,0 +1,41 @@
+
+===== MOBILE MONEY TRANSACTION SYSTEM =====
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Transaction Summary
+5. Exit
+
+Enter choice: Enter deposit amount: Deposit successful.
+Current balance: 50000 RWF
+
+===== MOBILE MONEY TRANSACTION SYSTEM =====
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Transaction Summary
+5. Exit
+
+Enter choice: Enter withdrawal amount: Transaction rejected: Insufficient balance.
+
+===== MOBILE MONEY TRANSACTION SYSTEM =====
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Transaction Summary
+5. Exit
+
+Enter choice: Current balance: 50000 RWF
+
+===== MOBILE MONEY TRANSACTION SYSTEM =====
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Transaction Summary
+5. Exit
+
+Enter choice: System terminated.
