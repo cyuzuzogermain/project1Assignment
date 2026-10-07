@@ -41,27 +41,7 @@ Tinkercad tips:
   reported distance.
 
 
-2) Block Diagram
-----------------
-Ultrasonic Sensor (HC-SR04)
-        |
-        |  Trig + Echo
-        v
-Arduino Uno
-        |
-        |  read pulse duration
-        |  convert to distance
-        |  compare to threshold
-        v
-Decision / Processing
-   occupied if distance <= threshold
-        |
-        +--> Green LED  (available)
-        +--> Red LED    (occupied)
-        +--> Buzzer     (alert when occupied)
-
-
-3) Arduino Source Code
+2) Arduino Source Code
 -----------------------
 File: parking_indicator.ino
 
@@ -86,7 +66,7 @@ Main behavior:
         buzzer OFF
 
 
-4) Simulation Test Cases
+3) Simulation Test Cases
 ------------------------
 Test Case 1 - Vehicle outside the threshold (space available)
 - Simulated distance: 30 cm (greater than threshold)
@@ -111,7 +91,7 @@ Optional transition test:
 - The system should change state around the threshold value of 20 cm.
 
 
-5) Short Explanation
+4) Short Explanation
 ---------------------
 Role of each component:
 - Ultrasonic sensor: measures distance to the nearest object by
@@ -138,6 +118,6 @@ How the Arduino controls the outputs:
   in the simulated distance.
 
 
-6) Data Flow Summary
+5) Data Flow Summary
 ---------------------
 Ultrasonic Sensor -> Arduino Uno -> Decision/Processing -> LEDs + Buzzer
